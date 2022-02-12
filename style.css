@@ -24,3 +24,23 @@ body {
     background-color: white;
     color: gray;
 }
+
+.second {
+    display: none;
+}
+
+.main {
+    background-color: green;
+    border: 15px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+}
+
+.main p {
+    font-size: 25px;
+    font-weight: 900;
+}
