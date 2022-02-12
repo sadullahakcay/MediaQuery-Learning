@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background-color: gray;
+    background-color: #aaa;
     overflow: auto;
     display: flex;
     justify-content: flex-end;
@@ -16,6 +16,7 @@ body {
 
 .navbar a {
     color: white;
+    font-weight: 700;
     text-decoration: none;
     padding: 20px;
 }
@@ -43,4 +44,59 @@ body {
 .main p {
     font-size: 25px;
     font-weight: 900;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background-color: burlywood;
+    }
+
+    .navbar {
+        background-color: #bbb;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    body {
+        background-color: coral;
+    }
+
+    .navbar {
+        background-color: #ccc;
+        justify-content: space-around;
+    }
+
+    .navbar a {
+        color: black;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: purple;
+    }
+
+    .navbar {
+        background-color: aqua;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .navbar a {
+        color: black;
+    }
+
+    .main {
+        background-color: purple;
+        border: 15px solid red;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .second {
+        display: contents;
+    }
 }
