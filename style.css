@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+.navbar {
+    background-color: gray;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: gray;
+}
